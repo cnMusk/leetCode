@@ -49,7 +49,7 @@ class Foo {
         Thread threadA = new Thread(() ->{
             try {
                 foo.second(()->{
-                    System.out.println("second");
+//                    System.out.println("second");
                 });
             } catch (InterruptedException e) {
                 e.printStackTrace();
